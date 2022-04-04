@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>
+L'ARTE DELLA GUERRA - AREA DI PROGETTO
+</title> 
+</head>
+<body background= "carta.jpg">
+<font text = "black" face = "Estrangelo Edessa" >
+<br><center><img src= "ARTE.png"></img><br>
+<br>
+<font align = "left"><i>"Sconfiggere il nemico senza combattere è la massima abilità"</i><br><br>
+<br><br>
+<center><a href="mappa.html"><font text="calibri"><b> MAPPA CONCETTUALE </b></a></font></center>
+<br>
+<script language="JavaScript1.2">
+
+function reapply(){
+setTimeout("slideit()",2000)
+return true
+}
+window.onerror=reapply
+</script>
+<script language="JavaScript1.1">
+<!--
+var image1=new Image()
+image1.src="soldatino.jpg"
+var image2=new Image()
+image2.src="soldato.jpg"
+var image3=new Image()
+image3.src="Strategia.jpg"
+//-->
+</script>
+
+</HEAD>
+
+<BODY bgcolor="white"  onLoad="slideit()">
+
+
+
+
+<CENTER>
+<a href="javascript:slidelink()" onMouseover="window.status='';return true" onMouseout="window.status=''"><img src="immagine01.jpg" name="slide" border=0 style="filter:blendTrans(duration=3)"></a>
+<script>
+<!--
+////change number of images below 
+var number_of_images=3
+//change speed below (in seconds)
+var speed=3
+var step=1
+var whichimage=1
+function slideit(){
+if (!document.images)
+return
+if (document.all)
+slide.filters.blendTrans.apply()
+document.images.slide.src=eval("image"+step+".src")
+if (document.all)
+slide.filters.blendTrans.play()
+whichimage=step
+if (step<number_of_images)
+step++
+else
+step=1
+if (document.all)
+setTimeout("slideit()",speed*1000+3000)
+else
+setTimeout("slideit()",speed*1000)
+}
+//-->
+</script>
+
+<center><a href= menu.html> Indice </a></center>
+
+
+<br><br>
+<center>
+<center><i>Grazie per aver visitato il mio sito web</i><img src = "mano.gif"></img></center>
+
+<P align="right">
+<img src= "italia.gif" width="48" height="32"></img><br>
+©Powered by Samantha Mangeruca</P>
+
+</html>
